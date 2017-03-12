@@ -1,1 +1,28 @@
 /*styles for assignment 3*/
+h1{
+  text-align: center;
+  font: bold 40px TimesNewRoman, serif;
+  color: #ae477c;
+  margin: 50px;
+}
+
+h2{
+  font: bold 30px TimesNewRoman, serif;
+  color: #ae477c;
+}
+
+h5{
+  font: TimesNewRoman, serif;
+  color: #ae477c;
+}
+
+ol{
+  font: bold 20px TimesNewRoman, serif;
+  color: #ae477c;
+}
+body{
+    background-image: url("./Images/cat.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 100%;
+}
