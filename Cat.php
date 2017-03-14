@@ -35,24 +35,7 @@
       return "I am Kitty " . $this->name . ". I am ".$this->gender." and I'm
 			".$this->personality." and ".$this->size.".";
   }
-
-
-   // This static method accepts two object parameters, and returns the result
-   // of the comparision between the two.  This can be used to sort an array
-   // of objects with the comparator of choice.  See also ex15.php
-   public static function compare($a, $b)
-   {
-      return strcmp($a->name, $b->name);
-   }
-
-   public static function compareTwo($a, $b)
-   {
-      return strcmp($b->name, $a->name);
-   }
-
-
    public function purr(){
       echo "Purrr, I love you!!!!!<br/>";
    }
-
 	}

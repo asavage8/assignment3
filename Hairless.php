@@ -12,7 +12,7 @@
 
    public function meow($times) {
       parent::meow($times);
-			echo "&I meow, but I do it ".$this->meowIntensity."ly<br/>";
+			echo "I meow, but I do it ".$this->meowIntensity."ly<br/>";
   }
 
 	public function sunggleLevel() {

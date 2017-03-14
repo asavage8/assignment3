@@ -1,9 +1,11 @@
 /*styles for assignment 3*/
 h1{
   text-align: center;
-  font: bold 40px TimesNewRoman, serif;
-  color: #ae477c;
+  font: bold 45px TimesNewRoman, serif;
+  color: black;
   margin: 50px;
+  border: 30px;
+  border-color: #ae477c;
 }
 
 h2{
@@ -15,14 +17,21 @@ h5{
   font: TimesNewRoman, serif;
   color: #ae477c;
 }
-
 ol{
   font: bold 20px TimesNewRoman, serif;
   color: #ae477c;
 }
 body{
-    background-image: url("./Images/cat.jpg");
-    background-repeat: no-repeat;
-    background-position: right center;
-    height: 100%;
+  background-image: url("./Images/cat.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 100%;
+  font: bold 20px TimesNewRoman, serif;
+  color: Black;
+  min-height: 600px;
+}
+
+img{
+  max-width: 200px;
+  height: auto;
 }
