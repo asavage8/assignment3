@@ -26,11 +26,7 @@
 	      echo "Come snuggle with me, becuse I am adorble<br/>";
 	   }
 
-		 function __clone() {
-
-			
-		 }
-		 public function __toString() {
+	public function __toString() {
 				return "I am Siamese Kitty " . $this->name . ". I am ".$this->gender." and I'm
 			 ".$this->personality." and ".$this->size.".";
 		}

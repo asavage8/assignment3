@@ -1,0 +1,60 @@
+/*styles for assignment 3*/
+h1{
+  text-align: center;
+  font: bold 45px TimesNewRoman, serif;
+  color: black;
+  margin: 50px;
+  padding: 10px;
+}
+
+
+h2{
+  font: bold 30px TimesNewRoman, serif;
+  color: black;
+}
+
+h5{
+  font: TimesNewRoman, serif;
+  color: black;
+}
+ol{
+  font: bold 20px TimesNewRoman, serif;
+  color: black;
+}
+#pic{
+  background-image: url("../Images/top.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 100%;
+  padding: 0 0 1px 0;
+  font: bold 20px TimesNewRoman, serif;
+  color: Black;
+}
+
+img{
+  max-width: 200px;
+  height: auto;
+  box-shadow: inset 0px 0px 30px 30px rgba(0,0,0,0.9);
+  padding: 15px;
+}
+#feat h1{
+  text-align: center;
+  font: bold 45px TimesNewRoman, serif;
+  color: black;
+  /*padding-top: 45px;*/
+}
+h3{
+  font: bold 20px TimesNewRoman, serif;
+}
+#feat{
+  align-items: center;
+  text-align: center;
+  background-image: url("../Images/animal_cat.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0 0 0 0;
+}
